@@ -27,18 +27,21 @@ h3 {
 #img-div {
     display: flex;
     justify-content: space-around;
+    height: 20%;
+    max-height 20vw;
 }
 
 #image {
-    height: 30vw;
     width: auto;
+    height: auto;
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
     filter: grayscale(1);
     border-style: solid;
     border-color: transparent;
     border-radius: 4%;
-    align-self: center;
+    
+    
 }
 
 
