@@ -5,8 +5,23 @@ body {
 h1 {
     text-align: center;
     font-family: Satisfy;
-    font-size: 45px;
-    margin-bottom: 1em;
+    font-size: 52px;
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    font-family: Satisfy;
+    font-size: 40px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-family: Satisfy;
+    font-size: 30px;
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 250;
 }
 
 #img-div {
@@ -14,7 +29,7 @@ h1 {
     justify-content: space-around;
 }
 
-#pender {
+#image {
     height: 30vw;
     width: auto;
     filter: gray; /* IE6-9 */
@@ -23,13 +38,21 @@ h1 {
     border-style: solid;
     border-color: transparent;
     border-radius: 4%;
+    align-self: center;
 }
 
 
-#pender:hover {
+#image:hover {
     filter: grayscale(0);
 }
 
+figcaption {
+    font-family: 'Fira Sans', sans-serif;;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-weight: 100;
+}
 
 
 hr {
@@ -39,4 +62,31 @@ hr {
     margin-right: 4em;
 }
 
+p {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
 
+ul {
+    padding-left: 10em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+}
+
+ol {
+    padding-left: 10em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+}
+
+#nav {
+    display: flex;
+    align-items: flex-start;
+}
+
+#edu {
+    background-color: #c7928b;
+}
