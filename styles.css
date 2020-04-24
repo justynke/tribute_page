@@ -24,7 +24,7 @@ h3 {
 }
 
 #img-div {
-    height: 38vw;
+    height: 67vh;
     width: 80vw;
     margin: auto;
     position: relative;
@@ -93,7 +93,7 @@ ol {
     font-family: 'Satisfy', sans-serif;
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 97%;
     height: 5vw;
     margin: auto;
     position: relative;
