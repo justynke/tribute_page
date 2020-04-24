@@ -139,13 +139,15 @@ ol {
 footer {
     display: flex;
     margin: auto;
-    background-color: rgb(198, 203, 206, 0.7);
+    background-color: #a1a09e;
+    opacity: 0.3;
+    text-align: center;
     border: solid;
     border-color: transparent;
     border-radius: 15px;
-    width: 30vw;
+    width: 90vw;
     height: 5vw;
+    align-items: center;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    display: block;
-    text-align: center;
 }

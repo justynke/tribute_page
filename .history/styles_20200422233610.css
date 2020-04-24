@@ -1,0 +1,13 @@
+body {
+    background-image: url(images/background.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 45px;
+}
+
+#img-div {
+    width: 50%;
+}

@@ -1,0 +1,35 @@
+body {
+    background-image: url(images/background.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 45px;
+}
+
+#img-div {
+    display: flex;
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    justify-content: space-around;
+}
+
+#img-div:hover {
+    filter: grayscale(0);
+}
+
+#pender {
+    height: 30vw;
+    width: auto;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+

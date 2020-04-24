@@ -137,15 +137,7 @@ ol {
 }
 
 footer {
-    display: flex;
+    position: relative;
     margin: auto;
-    background-color: rgb(198, 203, 206, 0.7);
-    border: solid;
-    border-color: transparent;
-    border-radius: 15px;
-    width: 30vw;
-    height: 5vw;
-    font-family: 'Courier New', Courier, monospace;
-    display: block;
-    text-align: center;
+    background-color: ;
 }

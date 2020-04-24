@@ -140,12 +140,14 @@ footer {
     display: flex;
     margin: auto;
     background-color: rgb(198, 203, 206, 0.7);
+    text-align: center;
     border: solid;
     border-color: transparent;
     border-radius: 15px;
     width: 30vw;
     height: 5vw;
+    align-items: center;
+    justify-content: center;
     font-family: 'Courier New', Courier, monospace;
-    display: block;
-    text-align: center;
+    margin: 2em;
 }

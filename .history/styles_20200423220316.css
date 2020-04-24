@@ -1,0 +1,111 @@
+body {
+    background-image: url(images/background.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-family: Satisfy;
+    font-size: 52px;
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    font-family: Satisfy;
+    font-size: 40px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-family: Satisfy;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 250;
+}
+
+#img-div {
+    height: 20vw;
+    position: relative;
+}
+
+#image {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 4%;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+
+#image:hover {
+    filter: grayscale(0);
+}
+
+figcaption {
+    font-family: 'Fira Sans', sans-serif;;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-weight: 100;
+}
+
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+p {
+    padding-left: 5em;
+    padding-right: 5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+ul {
+    padding-left: 10em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+}
+
+ol {
+    padding-left: 10em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 22px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 3em;
+}
+
+#edu {
+    display: flex;
+    background-color: #c7928b;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+#pop {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#priv {
+    flex-grow: 1;
+    text-align: center;
+}
