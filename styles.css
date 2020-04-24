@@ -98,14 +98,14 @@ ol {
     margin: auto;
     position: relative;
     font-size: 3vw;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 15px;
 }
 
 #edu {
     display: flex;
     background-color: #DC3522;
     flex-grow: 1;
-    border: solid;
-    border-color: transparent;
     border-radius: 15px 0px 0px 15px;
     color: white;
     justify-content: center;
@@ -127,8 +127,6 @@ ol {
     display: flex;
     flex-grow: 1;
     background-color: #374140;
-    border: solid;
-    border-color: transparent;
     border-radius: 0px 15px 15px 0px;
     color: white;
     justify-content: center;
